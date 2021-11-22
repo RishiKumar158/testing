@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DefaultPipe } from './pipes/default.pipe';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DefaultPipe
+    DefaultPipe,
+    LoginComponent
   ],
   imports: [
     BrowserModule
